@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Bot</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header content -->
+    <header class="header">
+      <h2 class="title">Hello,Dev</h2>
+      <h4 class="subtitle">How can I help you today?</h4>
+   
+    <div class="suggestion">
+      <div class="box first">
+        <p class="text">Brainstorm presentation ideas about a topic</p>
+        <span class="change material-symbols-outlined"> draw </span>
+      </div>
+      <div class="box first">
+        <p class="text">Give me tips to help care for a tricky plant</p>
+        <span class="change material-symbols-outlined"> lightbulb </span>
+      </div>
+      <div class="box first">
+        <p class="text">Help me train for a race next month</p>
+        <span class="change material-symbols-outlined"> explore </span>
+      </div>
+      <div class="box first">
+        <p class="text">Help me write an out-of-office email</p>
+        <span class="change material-symbols-outlined"> code </span>
+      </div>
+    </div>
+    </header>
+
+    <!-- creating chat list -->
+     <div class="chat-list">
+        <!-- <div class="message outgoing">
+            <div class="message-content">
+                <img src="men.jpeg" alt="user-image" class="avatar">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, repellat!</p>
+            </div>
+        </div>
+      
+        <div class="message incoming">
+           <div class="message-content">
+               <img src="star.png" alt="star-image" class="avatar">
+               <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, repellat!</p>
+           </div>
+           <span class="set material-symbols-outlined">content_copy</span>
+       </div> -->
+<!-- 
+       <div class="message incoming loading">
+        <div class="message-content">
+            <img src="star.png" alt="star-image" class="avatar">
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, repellat!</p>
+  
+            <div class="loading-indicator">
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+            </div>
+          </div>
+        <span class="set material-symbols-outlined">content_copy</span>
+    </div>
+     </div> -->
+ </div>
+    <!-- typing area -->
+    <div class="typing-area">
+      <form action="#" class="typing-input" >
+        <div class="input-wragger">
+          <input type="text" placeholder="Enter Your Prompt" class="input" required />
+          <button class="chang icon material-symbols-outlined">send</button>
+        </div>
+        <div class="action-button">
+          <span id="toggle-theme-button" class="chang material-symbols-outlined"> light_mode </span>
+          <span id="delete-chat"class="chang material-symbols-outlined"> delete </span>
+        </div>
+      </form>
+      <div class="diclaimer_text">
+        Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps Opens 
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
